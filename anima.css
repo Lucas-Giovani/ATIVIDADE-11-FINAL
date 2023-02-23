@@ -1,0 +1,304 @@
+.meu_texto
+ { 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-top: 365px;
+    animation: forwards bounceOutRight 5s;
+    position: absolute;
+    animation-delay: 2s;
+ }
+ .banana
+ {
+    width: 100%;
+    display: flex;
+    margin-top: 365px;
+    margin-left: -500px;
+    animation: bounceOutRight 4s;
+    position: absolute;
+    animation-delay: 5s;
+ }
+ .papel
+ {
+    width: 100%;
+    display: flex;
+    margin-top: 365px;
+    margin-left: 3200px;
+    animation: bounceOutLeft 6s;
+    position: absolute;
+    animation-delay: 5s;
+ } 
+ .municao
+ {
+    width: 100%;
+    display: flex;
+    margin-top: 365px;
+    margin-left: -500px;
+    animation: bounceOutRight 4s;
+    position: absolute;
+    animation-delay: 8s;
+ }
+ .among
+ {
+    width: 100%;
+    display: flex;
+    margin-top: 365px;
+    margin-left: 3200px;
+    animation: bounceOutLeft 4s;
+    position: absolute;
+    animation-delay: 9s;
+ }
+ .personagem
+ {
+    width: 100%;
+    display: flex;
+    margin-top: 220px;
+    margin-left: -900px;
+    animation: bounceOutRight 4s;
+    position: absolute;
+    animation-delay: 11s;
+ }
+ .peito
+ {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    position: absolute;
+    animation: peito 9.5s;
+    margin-top: 300px;
+    left: 590px;
+ }
+ @keyframes peito
+ {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+ 
+
+ .perna
+ {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    position: absolute;
+    animation: perna 11.5s;
+    margin-top: 135px;
+    left: -5px;
+ }
+ @keyframes perna
+ {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+ .cabeca
+ {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    animation: cabeca 12.5s;
+    margin-top: -59px;
+    left: -25px;
+ }
+ @keyframes cabeca
+ {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+ .bracodireito
+ {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    animation: bracodireito 14.5s;
+    margin-top: 21px;
+    left: 50px;
+ }
+ @keyframes bracodireito
+ {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+ .bracoesquerdo
+ {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    animation: bracoesquerdo 16.5s;
+    margin-top: 0px;
+    left: -50px;
+ }
+ @keyframes bracoesquerdo
+ {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+.logo 
+{
+    position: fixed;
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 260px;
+    left: 350px;
+    animation: linear infinite logo 5s;
+}
+@keyframes logo
+{
+    0% {left: 350px; margin-top: 260px;}
+    20% {left: 440px; margin-top: 60px;}
+    40% {left: 700px; margin-top: 60px;}
+    50% {left: 800px; margin-top: 260px;}
+    60% {left: 700px; margin-top: 460px;}
+    80% {left: 440px; margin-top: 460px;}
+    100% {left: 350px; margin-top: 260px;}
+    
+}
+.logo2
+{
+    position: fixed;
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    left: 440px;
+    animation: linear infinite logo2 5s;
+}
+@keyframes logo2
+{
+    0% {left: 440px; margin-top: 60px;}
+    20% {left: 700px; margin-top: 60px;}
+    40% {left: 800px; margin-top: 260px;}
+    50% {left: 700px; margin-top: 460px;}
+    60% {left: 440px; margin-top: 460px;}
+    80% {left: 350px; margin-top: 260px;}
+    100% {left: 440px; margin-top: 60px;}
+    
+}
+.logo3
+{
+    position: fixed;
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    left: 700px;
+    animation: linear infinite logo3 5s;
+}
+@keyframes logo3
+{
+    0% {left: 700px; margin-top: 60px;}
+    20% {left: 800px; margin-top: 260px;}
+    40% {left: 700px; margin-top: 460px;}
+    50% {left: 440px; margin-top: 460px;}
+    60% {left: 350px; margin-top: 260px;}
+    80% {left: 440px; margin-top: 60px;}
+    100% {left: 700px; margin-top: 60px;}
+    
+}
+.logo4
+{
+    position: fixed;
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 460px;
+    left: 440px;
+    animation: linear infinite logo4 5s;
+}
+@keyframes logo4
+{
+    0% {left: 800px; margin-top: 260px;}
+    20% {left: 700px; margin-top: 460px;}
+    40% {left: 440px; margin-top: 460px;}
+    50% {left: 350px; margin-top: 260px;}
+    60% {left: 440px; margin-top: 60px;}
+    80% {left: 700px; margin-top: 60px;}
+    100% {left: 800px; margin-top: 260px;}
+    
+}
+.logo5
+{
+    position: fixed;
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 460px;
+    left: 700px;
+    animation: linear infinite logo5 5s;
+}
+@keyframes logo5
+{
+    0% {left: 700px; margin-top: 460px;}
+    20% {left: 440px; margin-top: 460px;}
+    40% {left: 350px; margin-top: 260px;}
+    50% {left: 440px; margin-top: 60px;}
+    60% {left: 700px; margin-top: 60px;}
+    80% {left: 800px; margin-top: 260px;}
+    100% {left: 700px; margin-top: 460px;}
+    
+}
+.logo6
+{
+    position: fixed;
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 260px;
+    left: 800px;
+    animation: linear infinite logo6 5s;
+}
+@keyframes logo6
+{
+    0% {left: 440px; margin-top: 460px;}
+    20% {left: 350px; margin-top: 260px;}
+    40% {left: 440px; margin-top: 60px;}
+    50% {left: 700px; margin-top: 60px;}
+    60% {left: 800px; margin-top: 260px;}
+    80% {left: 700px; margin-top: 460px;}
+    100% {left: 440px; margin-top: 460px;}
+    
+}
+body    
+{
+    background-color: rgb(106, 187, 106);
+    
+}
